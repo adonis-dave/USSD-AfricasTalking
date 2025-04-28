@@ -2,8 +2,8 @@ const AfricasTalking = require("africastalking");
 
 // Initialize Africa's Talking SDK
 const africastalking = AfricasTalking({
-    apiKey: "atsk_30580bb14a233d096ac869ad7bf5dd3533d1143cd8b710b43b3c1867c2e017d32e44df60", // Replace with your Africa's Talking API key
-    username: "amass", // Use 'sandbox' for testing
+    apiKey: "INSERT_YOUR_API_KEY", // Replace with your Africa's Talking API key
+    username: "TEST", // Use 'sandbox' for testing
 });
 
 
