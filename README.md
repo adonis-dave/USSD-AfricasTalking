@@ -15,4 +15,4 @@ This is a USSD application built using [Africa's Talking](https://africastalking
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/USSD-AfricasTalking.git
+   git clone https://github.com/Fatima1510/USSD-AfricasTalking.git
