@@ -16,3 +16,34 @@ This is a USSD application built using [Africa's Talking](https://africastalking
 1. Clone the repository:
    ```bash
    git clone https://github.com/Fatima1510/USSD-AfricasTalking.git
+
+## Install Dependencies
+npm install
+
+## Configuration
+1. Obtain your Africa's Talking API credentials (API Key and Username).
+2. Create a `.env` file in the project root and add the following environment variables:
+   ```env
+   API_KEY=your_api_key
+   USERNAME=your_username
+   ```
+
+   ## Running the Application
+   1. Start the application:
+      ```bash
+      npm start
+      ```
+   2. Expose the local server to the internet using Ngrok:
+      ```bash
+      ngrok http 3000
+      ```
+   3. Copy the generated Ngrok URL (e.g., `   1. Start the application:
+      ```bash
+      npm start
+      ```
+   2. Expose the local server to the internet using Ngrok:
+      ```bash
+      ngrok http 3000
+      ```
+   3. Copy the generated Ngrok URL (e.g., `URL_ADDRESS-ngrok-subdomain.ngrok.io`).
+   
