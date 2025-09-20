@@ -7,7 +7,7 @@ const africastalking = AfricasTalking({
   username: process.env.AT_USERNAME
 });
 
-async function sendSMS(number, message) {
+async function premiumSMS(number, message) {
   let attempts = 0;
   const maxAttempts = 3;
 
@@ -16,7 +16,7 @@ async function sendSMS(number, message) {
       const result = await africastalking.SMS.send({
         to: number,
         message: message,
-        // from: "INFORM",
+        from: "5552",
       });
       console.log('SMS sent successfully:', result);
       return result;
@@ -31,4 +31,4 @@ async function sendSMS(number, message) {
   }
 }
 
-module.exports = sendSMS;
+module.exports = premiumSMS;
